@@ -1,4 +1,4 @@
-language = ''
+language = 'german'
 for i in range(1, 5):
     file_path = f"language_articles/{language}{i}.txt"
     characters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'á', 'é', 'í', 'ó', 'ú', 'ñ', 'à', 'è', 'ò', 'ù', 'ç', 'â', 'ê', 'î', 'ô', 'û', 'ä', 'ë', 'ï', 'ö', 'ü', 'å', 'ø', 'æ', 'č', 'ď', 'ě', 'ň', 'ř', 'š', 'ť', 'ů', 'ž', 'ý', 'ĺ', 'ľ', 'ŕ', 'ą', 'ć', 'ę', 'ł', 'ń', 'ś', 'ź', 'ż', 'ð', 'þ', 'ğ', 'ş', 'ı', 'ã', 'õ', 'ő', 'ű', 'ß', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'Á', 'É', 'Í', 'Ñ', 'Ó', 'Ú', 'Ü', 'Â', 'À', 'Ä', 'Ç', 'È', 'Ê', 'Ë', 'Î', 'Ï', 'Ô', 'Ù', 'Û', 'Ü', 'Å', 'Ø', 'Æ', 'Č', 'Ď', 'Ě', 'Ň', 'Ř', 'Š', 'Ť', 'Ů', 'Ž', 'Ý', 'Ĺ', 'Ľ', 'Ŕ', 'Ą', 'Ę', 'Ł', 'Ń', 'Ś', 'Ź', 'Ż', 'Ć', 'Ö', 'Ð', 'Þ', 'Ğ', 'Ş', 'İ', 'Ã', 'Õ', 'Ő', 'Ű', 'ẞ']
@@ -78,7 +78,7 @@ for i in range(1, 5):
         arffRow.append(numWords)
 
         #add the current language being trained to the arff row
-        arffRow.append(language)
+        arffRow.append(language.capitalize())
         
         #create string from arff row
         rowString = ''
