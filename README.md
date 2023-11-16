@@ -33,3 +33,19 @@ Action items:
   * Future plans: Makenna
   * Data gathering: Zach
 * Sam to finish and push script
+
+# Meeting 11/16
+ Action items: 
+* Final Report template: Makenna 
+* Multilayer perceptron: Mackenzie
+* k nearest neighbor: Sam
+* Decision tree & random forest: Zach 
+
+Metrics: 
+training and test accuracy 
+store whatever data we can 
+keep track of hyperparameters
+plots
+
+
+ 
